@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<title>Manda Ijak Babu · Full-Stack Web Developer</title>
+<meta name="description" content="Portfolio of Manda Ijak Babu, a B.Tech CSE student and MERN full-stack web developer from Vijayawada.">
+<meta name="theme-color" content="#4f46e5">
+<meta property="og:type" content="website">
+<meta property="og:title" content="Manda Ijak Babu · Full-Stack Web Developer">
+<meta property="og:description" content="B.Tech CSE student and MERN developer. Projects, internships, certifications and achievements.">
+<meta name="twitter:card" content="summary">
+<script type="application/ld+json">{"@context":"https://schema.org","@type":"Person","name":"Manda Ijak Babu","jobTitle":"Full-Stack Web Developer","email":"mailto:ijak7373@gmail.com","address":{"@type":"PostalAddress","addressLocality":"Vijayawada","addressRegion":"Andhra Pradesh","addressCountry":"IN"},"alumniOf":"Lakireddy Bali Reddy College of Engineering","sameAs":["https://github.com/Raj-5112","https://leetcode.com/u/Raj5112/","https://www.geeksforgeeks.org/profile/raj5112go","https://www.linkedin.com/in/manda-ijak-babu-5a14592a4"]}</script>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#f7f8fb;--surface:#fff;--text:#0f172a;--muted:#5b6578;--line:#e3e7ef;--brand:#4f46e5;--brand2:#06b6d4;--chip:#eef0ff;--shadow:0 8px 30px rgba(15,23,42,.07);--hbg:rgba(247,248,251,.85);color-scheme:light}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){--bg:#0b1020;--surface:#131a2e;--text:#e8ecf6;--muted:#9aa5bd;--line:#232c47;--brand:#818cf8;--brand2:#22d3ee;--chip:#1c2445;--shadow:0 8px 30px rgba(0,0,0,.35);--hbg:rgba(11,16,32,.85);color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#0b1020;--surface:#131a2e;--text:#e8ecf6;--muted:#9aa5bd;--line:#232c47;--brand:#818cf8;--brand2:#22d3ee;--chip:#1c2445;--shadow:0 8px 30px rgba(0,0,0,.35);--hbg:rgba(11,16,32,.85);color-scheme:dark}
+:root{box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+*,*::before,*::after{box-sizing:inherit;margin:0;padding:0}
+html{scroll-behavior:smooth;scroll-padding-top:calc(env(safe-area-inset-top,0px) + 70px)}
+body{font-family:Inter,system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--bg);color:var(--text);line-height:1.65}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);background:var(--hbg);backdrop-filter:blur(12px);z-index:10}
+h1,h2,h3{font-family:"Space Grotesk",Inter,system-ui,sans-serif;line-height:1.15}
+a{color:inherit;text-decoration:none}
+.wrap{max-width:1080px;margin:0 auto;padding:0 1.25rem}
+header{position:sticky;top:env(safe-area-inset-top,0px);z-index:11;background:var(--hbg);backdrop-filter:blur(12px);border-bottom:1px solid var(--line)}
+.bar{display:flex;align-items:center;justify-content:space-between;height:60px}
+.logo{font-family:"Space Grotesk",sans-serif;font-weight:700;font-size:1.15rem}
+.logo span{color:var(--brand)}
+nav{display:flex;gap:1.4rem;align-items:center;font-size:.92rem;font-weight:500;color:var(--muted)}
+nav a:hover{color:var(--brand)}
+#theme{background:var(--chip);border:1px solid var(--line);color:var(--text);border-radius:99px;width:36px;height:36px;cursor:pointer;font-size:1rem}
+section{padding:4.5rem 0}
+h2{font-size:2rem;margin-bottom:.4rem}
+.sub{color:var(--muted);margin-bottom:2rem}
+.hero{padding:5rem 0 3.5rem}
+.pill{display:inline-flex;align-items:center;gap:.5rem;background:var(--chip);border:1px solid var(--line);padding:.35rem .8rem;border-radius:99px;font-size:.82rem;font-weight:500}
+.dot{width:8px;height:8px;border-radius:50%;background:#22c55e;box-shadow:0 0 0 4px rgba(34,197,94,.2)}
+h1{font-size:clamp(2.4rem,6.5vw,4.4rem);margin:1.2rem 0 1rem;letter-spacing:-.02em}
+.grad{background:linear-gradient(90deg,var(--brand),var(--brand2));-webkit-background-clip:text;background-clip:text;color:transparent}
+.lead{font-size:1.15rem;color:var(--muted);max-width:640px}
+.cta{display:flex;flex-wrap:wrap;gap:.8rem;margin-top:1.8rem}
+.btn{padding:.75rem 1.4rem;border-radius:10px;font-weight:600;border:1px solid var(--line);background:var(--surface);transition:.2s}
+.btn:hover{transform:translateY(-2px);box-shadow:var(--shadow)}
+.btn.p{background:linear-gradient(90deg,var(--brand),var(--brand2));color:#fff;border:0}
+.stats{display:grid;grid-template-columns:repeat(auto-fit,minmax(150px,1fr));gap:1rem;margin-top:3rem}
+.stat{background:var(--surface);border:1px solid var(--line);border-radius:14px;padding:1.1rem 1.2rem}
+.stat b{display:block;font-family:"Space Grotesk",sans-serif;font-size:1.6rem}
+.stat span{color:var(--muted);font-size:.85rem}
+.grid{display:grid;gap:1.2rem;grid-template-columns:repeat(auto-fit,minmax(290px,1fr))}
+.card{background:var(--surface);border:1px solid var(--line);border-radius:16px;padding:1.5rem;box-shadow:var(--shadow);transition:.25s}
+.card:hover{transform:translateY(-4px);border-color:var(--brand)}
+.card h3{font-size:1.2rem;margin-bottom:.5rem}
+a.card{display:block;color:inherit}
+.go{display:inline-block;margin-top:1rem;font-weight:600;color:var(--brand);font-size:.9rem}
+.card p{color:var(--muted);font-size:.95rem}
+.tags{display:flex;flex-wrap:wrap;gap:.4rem;margin-top:1rem}
+.tag{background:var(--chip);color:var(--brand);font-size:.78rem;font-weight:600;padding:.25rem .65rem;border-radius:99px}
+.skills .card h3{font-size:1rem;color:var(--brand)}
+.tl{border-left:2px solid var(--line);margin-left:.5rem;padding-left:1.6rem}
+.ti{position:relative;margin-bottom:1.8rem}
+.ti::before{content:"";position:absolute;left:calc(-1.6rem - 7px);top:.45rem;width:12px;height:12px;border-radius:50%;background:var(--brand);box-shadow:0 0 0 4px var(--chip)}
+.when{font-size:.82rem;color:var(--brand);font-weight:600}
+.ti h3{font-size:1.1rem;margin:.15rem 0}
+.ti p{color:var(--muted);font-size:.95rem}
+.two{display:grid;gap:2.5rem;grid-template-columns:repeat(auto-fit,minmax(300px,1fr))}
+ul.plain{list-style:none;display:grid;gap:.7rem}
+ul.plain li{background:var(--surface);border:1px solid var(--line);border-radius:12px;padding:.85rem 1rem;font-size:.95rem}
+ul.plain small{display:block;color:var(--muted)}
+.contact{text-align:center}
+.contact .cta{justify-content:center}
+footer{padding:2rem 0;text-align:center;color:var(--muted);font-size:.85rem;border-top:1px solid var(--line)}
+.rv{opacity:0;transform:translateY(18px);transition:.6s}
+.rv.in{opacity:1;transform:none}
+@media (max-width:720px){nav a{display:none}section{padding:3.2rem 0}}
+@media (prefers-reduced-motion:reduce){.rv{opacity:1;transform:none;transition:none}html{scroll-behavior:auto}}
+</style>
+</head>
+<body>
+<header><div class="wrap bar">
+<a class="logo" href="#home">Manda<span>.</span>dev</a>
+<nav><a href="#about">About</a><a href="#skills">Skills</a><a href="#projects">Projects</a><a href="#coding">Coding</a><a href="#experience">Experience</a><a href="#achievements">Achievements</a><a href="#contact">Contact</a>
+<button id="theme" aria-label="Toggle theme">◐</button></nav>
+</div></header>
+
+<main>
+<section class="hero" id="home"><div class="wrap">
+<span class="pill"><i class="dot"></i> Open to Web Developer &amp; Software Engineer roles</span>
+<h1>Hi, I’m <span class="grad">Manda Ijak Babu</span>.<br>I build full-stack web apps.</h1>
+<p class="lead">B.Tech Computer Science student from Vijayawada who turns ideas into fast, clean React and Node.js applications, and enjoys solving DSA problems along the way.</p>
+<div class="cta"><a class="btn p" href="#projects">View my work</a><a class="btn" href="mailto:ijak7373@gmail.com">Hire me</a><a class="btn" href="resume.pdf" download>Download Resume</a><a class="btn" href="https://github.com/Raj-5112" target="_blank" rel="noopener">GitHub</a></div>
+<div class="stats">
+<div class="stat"><b>3</b><span>Internships completed</span></div>
+<div class="stat"><b>2nd</b><span>Prize, Web Dev Hackathon</span></div>
+<div class="stat"><b>AWS</b><span>Certified Cloud Practitioner</span></div>
+<div class="stat"><b>7.99</b><span>CGPA (out of 10)</span></div>
+</div></div></section>
+
+<section id="about"><div class="wrap rv">
+<h2>About me</h2><p class="sub">Student by degree, builder by habit.</p>
+<div class="two"><div>
+<p>I’m pursuing a B.Tech in Computer Science &amp; Engineering at Lakireddy Bali Reddy College of Engineering, Mylavaram. I’ve built web applications with React, Node.js and MongoDB, and gained hands-on experience through three internships in full-stack development and software engineering.</p>
+<p style="margin-top:1rem">Beyond code, I mentor fellow students as a GeeksforGeeks Campus Lead and keep a regular problem-solving streak on LeetCode, CodeChef and GeeksforGeeks. My goal is to join a team where I can ship real products and keep learning fast.</p>
+</div>
+<ul class="plain">
+<li>🎓 B.Tech CSE · LBRCE, Mylavaram<small>Present · CGPA 7.99 / 10</small></li>
+<li>📍 Vijayawada, Andhra Pradesh, India</li>
+<li>🏫 Class XII · Sri Saraswathi Junior College, Ongole<small>89.2% · 2023</small></li>
+<li>🏫 Class X · Vijetha High School, Ongole<small>93% · 2021</small></li>
+</ul></div>
+</div></section>
+
+<section id="skills"><div class="wrap rv">
+<h2>Skills</h2><p class="sub">The tools I use to design, build and ship.</p>
+<div class="grid skills">
+<div class="card"><h3>Frontend</h3><div class="tags"><span class="tag">React</span><span class="tag">JavaScript</span><span class="tag">HTML</span><span class="tag">CSS</span><span class="tag">Tailwind CSS</span></div></div>
+<div class="card"><h3>Backend</h3><div class="tags"><span class="tag">Node.js</span><span class="tag">REST APIs</span><span class="tag">Java</span><span class="tag">Python</span></div></div>
+<div class="card"><h3>Databases</h3><div class="tags"><span class="tag">MongoDB</span><span class="tag">MySQL</span><span class="tag">SQL</span></div></div>
+<div class="card"><h3>Core CS</h3><div class="tags"><span class="tag">DSA</span><span class="tag">OOP</span><span class="tag">C</span></div></div>
+<div class="card"><h3>Tools &amp; Cloud</h3><div class="tags"><span class="tag">Git &amp; GitHub</span><span class="tag">AWS</span><span class="tag">ServiceNow</span><span class="tag">VS Code</span></div></div>
+<div class="card"><h3>Testing &amp; QA</h3><div class="tags"><span class="tag">Manual Testing</span><span class="tag">Functional Testing</span><span class="tag">Debugging</span><span class="tag">Bug Resolution</span></div></div>
+</div></div></section>
+
+<section id="projects"><div class="wrap rv">
+<h2>Projects</h2><p class="sub">Things I’ve built and shipped.</p>
+<div class="grid">
+<div class="card"><h3>Smart Resources Recycling (SR) System</h3><p>End-to-end waste-management web platform with full frontend and backend integration. Designed relational MySQL schemas, optimised CRUD operations and manually tested user flows before release.</p><div class="tags"><span class="tag">Full Stack</span><span class="tag">MySQL</span><span class="tag">2024</span></div></div>
+<div class="card"><h3>OP Appointment System</h3><p>Hospital outpatient registration and doctor scheduling app that helps reduce waiting times, with real-time doctor availability tracking and department-based filtering.</p><div class="tags"><span class="tag">React</span><span class="tag">Backend</span><span class="tag">Full Stack</span></div></div>
+<div class="card"><h3>Employer Data Analyser</h3><p>Application that processes corporate datasets and generates automated performance reports, improving data visualisation and retrieval efficiency.</p><div class="tags"><span class="tag">Python</span><span class="tag">Web Tools</span><span class="tag">2025</span></div></div>
+<div class="card"><h3>Rain Water Power</h3><p>Community Service Project model, “The Self-Sufficient Community Model”, that recycles rural wastewater into renewable electric power.</p><div class="tags"><span class="tag">Sustainability</span><span class="tag">Tech Club</span></div></div>
+</div>
+<p style="margin-top:1.5rem"><a class="btn" href="https://github.com/Raj-5112" target="_blank" rel="noopener">See all code on GitHub →</a></p>
+</div></section>
+
+<section id="coding"><div class="wrap rv">
+<h2>Coding profiles</h2><p class="sub">My practice and progress on competitive programming platforms. Open any card to see live stats.</p>
+<div class="grid">
+<a class="card" href="https://leetcode.com/u/Raj5112/" target="_blank" rel="noopener"><h3>LeetCode</h3><p>Regular data structures and algorithms practice with a consistent problem-solving streak. Username: Raj5112.</p><span class="go">View profile →</span></a>
+<a class="card" href="https://www.geeksforgeeks.org/profile/raj5112go" target="_blank" rel="noopener"><h3>GeeksforGeeks</h3><p>Daily practice on DSA problems, and official Campus Lead for GFG at LBRCE. Username: raj5112go.</p><span class="go">View profile →</span></a>
+<a class="card" href="https://www.codechef.com" target="_blank" rel="noopener"><h3>CodeChef</h3><p>Competitive programming practice and contests to sharpen logic and speed.</p><span class="go">Visit CodeChef →</span></a>
+<a class="card" href="https://github.com/Raj-5112" target="_blank" rel="noopener"><h3>GitHub</h3><p>Source code for my projects and everyday commits. Username: Raj-5112.</p><span class="go">View profile →</span></a>
+</div></div></section>
+
+<section id="experience"><div class="wrap rv">
+<h2>Experience</h2><p class="sub">Internships and hands-on training.</p>
+<div class="tl">
+<div class="ti"><div class="when">May – Jun 2026</div><h3>MERN Stack Intern · Council for Skills and Competencies</h3><p>Built applications with MongoDB, Express, React and Node.js.</p></div>
+<div class="ti"><div class="when">Jul – Aug 2025</div><h3>Java Development Intern · Pinnacle Labs</h3><p>Hands-on Java development, building on a strong Core Java and OOP foundation.</p></div>
+<div class="ti"><div class="when">May – Jul 2025</div><h3>Full Stack Web Development Intern · MINDENIOUS</h3><p>Hands-on full-stack web development across frontend and backend.</p></div>
+</div></div></section>
+
+<section id="achievements"><div class="wrap rv">
+<h2>Achievements &amp; leadership</h2><p class="sub">Recognition, certifications and community work.</p>
+<div class="two">
+<ul class="plain">
+<li>🥈 2nd Prize · Web Development Hackathon<small>RVR &amp; JC College of Engineering</small></li>
+<li>☁️ AWS Certified Cloud Practitioner</li>
+<li>🛠 ServiceNow &amp; Salesforce Associate certifications</li>
+<li>☕ Java &amp; Python · Infosys</li>
+<li>🐍 Python &amp; JavaScript · Cisco</li>
+</ul>
+<ul class="plain">
+<li>💡 GeeksforGeeks Campus Lead · LBRCE<small>2025–2026 · Mentored the competitive programming community, ran DSA workshops and coding contests</small></li>
+<li>🤝 Tech Club Core Member<small>2025–2026 · Led cross-functional student teams for engineering events and fests</small></li>
+<li>🙌 NSS Volunteer &amp; Campaign Lead<small>2025–2026 · Managed crowd control and child-safety operations during major festival events in Vijayawada</small></li>
+<li>🧩 Regular on LeetCode, CodeChef &amp; GeeksforGeeks</li>
+</ul></div>
+</div></section>
+
+<section class="contact" id="contact"><div class="wrap rv">
+<h2>Let’s work together</h2><p class="sub">I’m open to web developer and software engineering roles. Say hello!</p>
+<div class="cta">
+<a class="btn p" href="mailto:ijak7373@gmail.com">ijak7373@gmail.com</a>
+<a class="btn" href="resume.pdf" download>Resume (PDF)</a>
+<a class="btn" href="https://www.linkedin.com/in/manda-ijak-babu-5a14592a4" target="_blank" rel="noopener">LinkedIn</a>
+<a class="btn" href="https://leetcode.com/u/Raj5112/" target="_blank" rel="noopener">LeetCode</a>
+<a class="btn" href="https://www.geeksforgeeks.org/profile/raj5112go" target="_blank" rel="noopener">GeeksforGeeks</a>
+<a class="btn" href="https://github.com/Raj-5112" target="_blank" rel="noopener">GitHub</a>
+</div></div></section>
+</main>
+<footer>© <span id="yr"></span> Manda Ijak Babu · Built with care in Vijayawada</footer>
+
+<script>
+(function(){
+var r=document.documentElement,b=document.getElementById('theme');
+try{var t=localStorage.getItem('theme');if(t)r.setAttribute('data-theme',t)}catch(e){}
+b.addEventListener('click',function(){
+var d=r.getAttribute('data-theme')||(matchMedia('(prefers-color-scheme:dark)').matches?'dark':'light');
+var n=d==='dark'?'light':'dark';r.setAttribute('data-theme',n);
+try{localStorage.setItem('theme',n)}catch(e){}
+});
+document.getElementById('yr').textContent=new Date().getFullYear();
+var els=document.querySelectorAll('.rv');
+if('IntersectionObserver' in window){
+var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target)}})},{threshold:.08});
+els.forEach(function(el){io.observe(el)});
+}else{els.forEach(function(el){el.classList.add('in')})}
+})();
+</script>
+</body>
+</html>
